@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #282D35;
+}
+
+.header {
+    margin: 0;
+    font-size: 39px;
+}
+
+.list {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.list::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+.main-body {
+    color: white;
+    padding: 57px 27px;
+    background-image: url();
+}
+
+.main-facts {
+    margin-top: 46px;
+    max-width: 450px;
+}
+
+nav {
+    display: flex;
+    background-color: #21222A;
+    padding: 30px 25px;
+}
+
+.nav-logo {
+    width: 30px;
+    margin-right: 7px;
+}
+
+.nav-logo-text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav-title {
+    color: #DEEBF8;
+    font-weight: 600;
+}
